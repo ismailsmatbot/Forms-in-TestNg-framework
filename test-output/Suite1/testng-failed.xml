@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite1]">
+  <test parallel="none" name="Nopackage(failed)">
+    <classes>
+      <class name="com.bots.lib.testscripts.OnPremise">
+        <methods>
+          <include name="tc005"/>
+        </methods>
+      </class> <!-- com.bots.lib.testscripts.OnPremise -->
+      <class name="com.bots.lib.testscripts.Signup">
+        <methods>
+          <include name="tc002"/>
+        </methods>
+      </class> <!-- com.bots.lib.testscripts.Signup -->
+    </classes>
+  </test> <!-- Nopackage(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
